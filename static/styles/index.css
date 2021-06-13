@@ -1,0 +1,66 @@
+.code-block{
+    position: absolute;
+    left:50%;
+    top:62%;
+    transform: translate(-50%, -50%);
+    background-color: #F0F0F0;
+    height: 39%;
+    width: 80%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border-radius: 20px;
+    padding: 10px;
+}
+.btns{
+    display: block;
+    position: absolute;
+    left:50%;
+    top:92%;
+    transform: translate(-50%, -50%);
+}
+.btns-mobile{
+    display: none;
+}
+.pannel{
+    position: absolute;
+    left:50%;
+    top:26%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+#points{
+    font-size: 50px;
+}
+#next-btn{
+    position: absolute;
+    left: 52%;
+    top: 68%;
+    transform: translate(-50%, -50%);
+}
+#results{
+    text-align:left !important
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+html, body{
+    font-family: "Poppins", Helvetica, Arial, sans-serif;
+    background:linear-gradient(146.11deg, #FFDFBA 20.43%, rgba(255, 255, 255, 0) 79.91%), linear-gradient(202.81deg, #FF6636 38.99%, rgba(255, 255, 255, 0) 85.2%), #FFB45C
+}
+@media only screen and (max-width: 675px) {
+    .btns button{
+        width: 100%;
+        top:95%;
+    }
+    .code-block{
+        top:60%;
+    }
+    #next-btn{
+        top:90%;
+    }
+    /* .btns-mobile{
+        display: block;
+        position: absolute;
+        left:50%;
+        top:100%;
+        transform: translate(-50%, -50%);
+    } */
+}
